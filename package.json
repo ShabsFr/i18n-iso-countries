@@ -1,6 +1,6 @@
 {
   "name": "@shabsfr/i18n-iso-countries",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Convert ISO 3166-1 country codes and retrieve localized country names in multiple languages with full TypeScript support",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
