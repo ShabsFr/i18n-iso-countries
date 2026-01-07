@@ -23,7 +23,16 @@ npm install @shabsfr/i18n-countries
 
 ### Register locales
 
-First, register the language data you need:
+You can load locales dynamically without explicitly importing JSON files:
+
+```typescript
+import { loadLocale } from "@shabsfr/i18n-countries";
+
+await loadLocale("es");
+await loadLocale("en");
+```
+
+Or register them directly if you prefer:
 
 ```typescript
 import { registerLocale } from "@shabsfr/i18n-countries";
